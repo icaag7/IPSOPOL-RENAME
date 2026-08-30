@@ -1,0 +1,18 @@
+{
+  "total": 2940,
+  "desglose": {
+    "Médicos": 776,
+    "Funerarios": 348,
+    "Citas": 982,
+    "Jubilados": 25,
+    "Club": 809
+  },
+  "diario": {
+    "Lun": 472,
+    "Mar": 308,
+    "Mié": 393,
+    "Jue": 443,
+    "Vie": 647
+  },
+  "notaDiscrepancia": "El desglose diario corresponde a los registros diarios suministrados y no reconcilia con el total general oficial."
+}

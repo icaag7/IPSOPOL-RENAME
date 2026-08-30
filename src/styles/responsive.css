@@ -1,0 +1,147 @@
+/* Breakpoints objetivo:
+   <=479px  móvil pequeño
+   480-767px móvil grande
+   768-1023px tablet
+   1024-1399px laptop/desktop
+   >=1400px monitores grandes / ultrawide
+*/
+
+/* ---- Tablet y menor (<=1023px): KPIs y gráficos a 1-2 columnas ---- */
+@media (max-width: 1023px) {
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .app-header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .app-header-actions {
+    width: 100%;
+  }
+
+  .app-header-actions .btn {
+    flex: 1 1 auto;
+  }
+}
+
+/* ---- Móvil grande (480-767px) ---- */
+@media (max-width: 767px) {
+  .dashboard-main {
+    padding: 16px;
+    gap: 18px;
+  }
+
+  .kpi-card-value {
+    font-size: 1.7rem;
+  }
+
+  .welcome-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .welcome-actions .btn {
+    width: 100%;
+  }
+
+  .login-card {
+    padding: 30px 22px;
+  }
+
+  .table-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .table-meta {
+    text-align: left;
+  }
+}
+
+/* ---- Móvil pequeño (<=479px) ---- */
+@media (max-width: 479px) {
+  .app-header-titles h1 {
+    font-size: 0.92rem;
+  }
+
+  .app-header-titles p {
+    font-size: 0.7rem;
+  }
+
+  .welcome-title {
+    font-size: 1.5rem;
+  }
+
+  .welcome-week {
+    font-size: 0.72rem;
+  }
+
+  .chart-card {
+    padding: 14px;
+  }
+
+  .kpi-card {
+    padding: 16px;
+  }
+
+  .upload-zone {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* ---- Monitores grandes / ultrawide (>=1400px) ---- */
+@media (min-width: 1400px) {
+  .dashboard-main,
+  .app-header-inner {
+    max-width: 1560px;
+  }
+
+  .kpi-card-value {
+    font-size: 2.35rem;
+  }
+}
+
+/* ===== Impresión ===== */
+@media print {
+  .app-header-actions,
+  .table-toolbar .btn,
+  .upload-zone,
+  .no-print,
+  .welcome-actions {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff;
+  }
+
+  .app-header {
+    position: static;
+    box-shadow: none;
+  }
+
+  .card,
+  .kpi-card,
+  .chart-card,
+  .table-card {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+    break-inside: avoid;
+  }
+
+  .dashboard-main {
+    max-width: 100%;
+    padding: 0 12px;
+  }
+
+  .table-scroll {
+    overflow: visible;
+  }
+}

@@ -1,0 +1,23 @@
+[
+  { "especialidad": "Atención Pre-hospitalaria", "lun": 0, "mar": 1, "mie": 0, "jue": 0, "vie": 0, "total": 1 },
+  { "especialidad": "Ecografía", "lun": 0, "mar": 0, "mie": 2, "jue": 5, "vie": 12, "total": 19 },
+  { "especialidad": "Endocrinología", "lun": 0, "mar": 0, "mie": 6, "jue": 0, "vie": 5, "total": 11 },
+  { "especialidad": "Enfermería", "lun": 42, "mar": 22, "mie": 32, "jue": 42, "vie": 46, "total": 184 },
+  { "especialidad": "Fisioterapia", "lun": 39, "mar": 29, "mie": 30, "jue": 34, "vie": 39, "total": 171 },
+  { "especialidad": "Gastroenterología", "lun": 0, "mar": 0, "mie": 0, "jue": 0, "vie": 4, "total": 4 },
+  { "especialidad": "Ginecología", "lun": 8, "mar": 3, "mie": 5, "jue": 2, "vie": 0, "total": 18 },
+  { "especialidad": "Gineco-Obstetra", "lun": 0, "mar": 4, "mie": 0, "jue": 0, "vie": 0, "total": 4 },
+  { "especialidad": "Laboratorio", "lun": 5, "mar": 5, "mie": 3, "jue": 0, "vie": 4, "total": 17 },
+  { "especialidad": "Medicina General", "lun": 18, "mar": 11, "mie": 10, "jue": 15, "vie": 3, "total": 57 },
+  { "especialidad": "Medicina Interna", "lun": 0, "mar": 1, "mie": 2, "jue": 6, "vie": 4, "total": 13 },
+  { "especialidad": "Nefrología Pediátrica", "lun": 0, "mar": 1, "mie": 0, "jue": 0, "vie": 0, "total": 1 },
+  { "especialidad": "Neumología Pediátrica", "lun": 0, "mar": 0, "mie": 6, "jue": 0, "vie": 0, "total": 6 },
+  { "especialidad": "Odontología", "lun": 28, "mar": 33, "mie": 35, "jue": 35, "vie": 24, "total": 155 },
+  { "especialidad": "Pediatría", "lun": 5, "mar": 1, "mie": 4, "jue": 2, "vie": 3, "total": 15 },
+  { "especialidad": "Psicología", "lun": 4, "mar": 5, "mie": 0, "jue": 8, "vie": 4, "total": 21 },
+  { "especialidad": "Psicopedagogía", "lun": 3, "mar": 6, "mie": 2, "jue": 4, "vie": 0, "total": 15 },
+  { "especialidad": "Radiografía (RX)", "lun": 8, "mar": 0, "mie": 11, "jue": 7, "vie": 7, "total": 33 },
+  { "especialidad": "Traumatología", "lun": 4, "mar": 0, "mie": 0, "jue": 7, "vie": 8, "total": 19 },
+  { "especialidad": "Urología", "lun": 0, "mar": 0, "mie": 0, "jue": 0, "vie": 2, "total": 2 },
+  { "especialidad": "Cardiología", "lun": 7, "mar": 0, "mie": 0, "jue": 0, "vie": 0, "total": 7 }
+]
